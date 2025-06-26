@@ -24,7 +24,7 @@ function App() {
 
     
         <Route path='/' element={<Layout />}>
-           <Route path="/overview" element={<Overview />} />
+           <Route path="/" element={<Overview />} />
            <Route path="/licenses" element={<LicenseManagement/>} />
           <Route path="/reports" element={<Report/>} />         
            <Route path="/notifications" element={<Notification/>} />
