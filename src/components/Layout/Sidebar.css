@@ -1,0 +1,9 @@
+.hover-bg:hover {
+    background-color: #f8f9fa !important; 
+  border-radius: 0.375rem;   
+  
+}
+
+  .dropdown-toggle::after {
+    display: none;
+  }

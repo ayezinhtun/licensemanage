@@ -1,0 +1,20 @@
+.input-icon-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%; /* or as needed */
+}
+
+.input-icon-wrapper .form-control {
+  padding-left: 35px; /* leave space for icon */
+}
+
+.input-icon-wrapper .input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* so icon doesn't block input clicks */
+  color: #888; /* icon color */
+  width: 20px;  /* icon size */
+  height: 20px;
+}
