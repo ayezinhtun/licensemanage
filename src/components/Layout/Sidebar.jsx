@@ -48,11 +48,11 @@ const Sidebar = () => {
   };
 
   const menuItems = [
-    { label: 'Dashboard', icon: <LayoutDashboard size={20} />, path: '/overview' },
+    { label: 'Dashboard', icon: <LayoutDashboard size={20} />, path: '/' },
     { label: 'License Manager', icon: <FileText size={20} />, path: '/licenses' },
     { label: 'Reports & Analytics', icon: <BarChart3 size={20} />, path: '/reports' },
     {label: 'Notifications', icon: <Bell size={20} />, path: '/notifications'},
-    {label: 'Audit Logs', icon: <Activity size={20} />, path: '/audit'},
+    {label: 'Audit Logs', icon: <Activity size={20} />, path: '/'},
     {label: 'Account Settings', icon: <Settings size={20} />, path: '/setting'},
   ];
 
