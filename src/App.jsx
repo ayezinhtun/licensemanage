@@ -11,6 +11,7 @@ import LicenseManagement from './components/License/LicenseManagement'
 import Report from './components/report/Report'
 import Notification from './components/notification/Notification'
 import AccountSettings from './components/setting/Acountsetting'
+import LicenseEdit from './components/License/LicenseEdit'
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path="/sidebar" element={<Sidebar />} />
         <Route path='/chart' element={<Chart />} />
         <Route path='/recent' element={<Recent />} />
+                <Route path='/licenseEdit' element={<LicenseEdit />} />
+
 
     
         <Route path='/' element={<Layout />}>
